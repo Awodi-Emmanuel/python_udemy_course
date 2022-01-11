@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: wheat;
+  border-bottom: 2px solid grey;
+}
+header .logo {
+  margin: 10px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+header nav ul li {
+  margin: 10px 20px;
+}
+main {
+  float: left;
+  width: 70%;
+  border: 1px solid dodgerblue;
+}
+.hero__banner {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px 0;
+  border: 1px solid green;
+  width: 50%;
+}
+aside {
+  float: right;
+  width: 30%;
+  border: 1px solid crimson;
+}
+.clearfix {
+  float: clearfix;
+}

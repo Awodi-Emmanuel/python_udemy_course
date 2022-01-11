@@ -1,0 +1,28 @@
+body {
+  background: lightblue;
+}
+#firstParagraph {
+  background: khaki;
+  border: 1px solid black;
+}
+h2 {
+  color: purple;
+}
+input {
+  border: 2px solid rgba(100, 0, 0);
+}
+#textblock {
+  border: 5px solid gray;
+  width: 800px;
+  height: 400px;
+}
+li a {
+  color: red;
+}
+#itemone {
+  background: khaki;
+}
+div {
+  background: blue;
+  border: 4px dashed khaki;
+}
