@@ -1,27 +1,36 @@
-#green{
+h1 {
+  justify-content: center;
+  display: flex;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+#green {
   border: 1px solid gray;
-  background:#093320;
+  background: #093320;
   padding: 100px;
+  height: 150px;
   margin: 100px 10px 15px 50px;
 }
 
-#secondcolor{
+#secondcolor {
   border: 1px solid gray;
-  background:#4a89b5;
+  background: #4a89b5;
   padding: 100px;
   margin-left: 100px;
 }
 
-#third-color{
+#third-color {
   border: 1px solid gray;
-  background:#acb9c2;
+  background: #acb9c2;
   padding: 100px;
   margin-left: 100px;
 }
 
-#fourth-round{
+#fourth-round {
   border: 1px solid gray;
-  background:#FDFFFC;
+  background: #fdfffc;
   padding: 100px;
   margin-left: 100px;
 }
