@@ -17,7 +17,7 @@ td{
      border: 10px solid white;
 }
 #green {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   background: #093320;
   /* padding: 100px;
   height: 150px;
@@ -25,21 +25,21 @@ td{
 }
 
 #secondcolor {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   background: #4a89b5;
   /* padding: 100px;
   margin-left: 100px; */
 }
 
 #third-color {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   background: #acb9c2;
   /* padding: 100px;
   margin-left: 100px; */
 }
 
 #fourth-round {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   background: #fdfffc;
   /* padding: 100px;
   margin-left: 100px;
