@@ -1,3 +1,51 @@
-body{
-    background-color: #011627;
+body {
+  background: #011627;
+}
+#wrapper {
+  border-right: 70px solid rgb(29, 204, 204);
+  border-left: 70px solid rgb(29, 204, 204);
+  border-bottom: 70px solid rgb(29, 204, 204);
+  height: 700px;
+}
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+p {
+  font-size: 20px;
+  padding: 30px 25px 30px 25px;
+  /* border: 1px solid wheat; */
+  text-align: center;
+  color: #ffffffff;
+}
+
+.sign-up {
+display: flex;
+  justify-content: center;
+}
+
+label {
+    color: #ffffff;
+
+}
+
+input{
+    border: 1px solid white;
+    width: 350px;
+    padding: 15px;
+    margin: 20px 0px 0px 20px;
+
+}
+
+#signin{
+    background:chartreuse;
+    color:white;
+    padding:10px;
+    border: 1px solid gray;
+    width: 100px;
+    margin-top: 1rem;
+    align-items: center;
 }
