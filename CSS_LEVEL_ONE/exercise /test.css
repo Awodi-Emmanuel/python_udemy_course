@@ -5,7 +5,7 @@ body {
   border-right: 70px solid rgb(29, 204, 204);
   border-left: 70px solid rgb(29, 204, 204);
   border-bottom: 70px solid rgb(29, 204, 204);
-  height: 700px;
+  height: 1000px;
 }
 h1,
 h2 {
@@ -29,6 +29,8 @@ display: flex;
 
 label {
     color: #ffffff;
+    justify-content: center;
+    padding:1rem;
 
 }
 
@@ -36,7 +38,7 @@ input{
     border: 1px solid white;
     width: 350px;
     padding: 15px;
-    margin: 20px 0px 0px 20px;
+    /* margin: 20px 0px 0px 20px; */
 
 }
 
@@ -46,6 +48,6 @@ input{
     padding:10px;
     border: 1px solid gray;
     width: 100px;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     align-items: center;
 }
