@@ -10,3 +10,36 @@ console.log(!(x !== 1) && y === 1 + 1);
 console.log(y !== "2" && x < 10);
 
 console.log(y !== x || y == "2" || x === 3);
+
+// Write a While Loop that prints out
+// only the even numbers from 1 to 10.
+
+// my Answer
+
+var a = 0;
+
+while (a < 11) {
+  console.log("here is our even number ======> " + a);
+
+  a = a + 2;
+}
+
+// instructor's solution
+
+var num = 1;
+
+while (num < 11) {
+  console.log(num);
+  num = num + 1;
+}
+
+// solutin 2
+
+var getEven = 1;
+
+while (getEven < 11) {
+  if (getEven%2 === 0) {
+    console.log(getEven);
+  }
+  getEven = getEven + 1;
+}
