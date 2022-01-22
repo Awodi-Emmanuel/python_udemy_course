@@ -38,8 +38,23 @@ while (num < 11) {
 var getEven = 1;
 
 while (getEven < 11) {
-  if (getEven%2 === 0) {
+  if (getEven % 2 === 0) {
     console.log(getEven);
   }
   getEven = getEven + 1;
 }
+
+var num1 = 0;
+
+while (num1 < 6) {
+  console.log("hello word");
+  num = num + 1;
+}
+
+var cooutNum = 0;
+
+while (cooutNum < 11) {
+  console.log("Yay counted even number ===> " + cooutNum);
+  cooutNum = cooutNum + 2;
+}
+ 
