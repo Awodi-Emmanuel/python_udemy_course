@@ -114,3 +114,33 @@ function luckysum(a, b, c) {
 console.log(luckysum(1, 2, 3));
 console.log(luckysum(1, 2, 13));
 console.log(luckysum(1, 13, 3));
+
+function caught_speeding(speed, is_birthday) {
+  if (is_birthday) {
+    speed -= 5;
+  }
+  if (speed <= 60) {
+    return 0;
+  }
+  if (60 < speed <= 80) {
+    return 1;
+  }
+  return 2;
+}
+
+console.log(caught_speeding(60, false));
+console.log(caught_speeding(65, false));
+console.log(caught_speeding(65, false));
+
+function makeBricks(small, big, goal) {
+  return goal % 5 >= 0 && (goal % 5) - small <= 0 && small + 5 * big >= goal;
+}
+
+console.log(makeBricks(3, 1, 8));
+console.log(makeBricks(3, 1, 9));
+console.log(makeBricks(3, 2, 10));
+
+///////////////////////////////////////////////////
+//////// The whole Exercise here is source
+////////from codingbat.com ////////////////////////
+///////////////////////////////////////////////////
