@@ -34,3 +34,28 @@ function fun(stuff) {
 fun();
 
 console.log(stuff);
+
+///////////////////////////////////////////////////
+//////// Exercise on function /////////////////////
+///////////////////////////////////////////////////
+
+function sleepIn(weekday, vacation) {
+  //   if (!weekday && !vacation) return true;
+  //   if (weekday && !vacation) return false;
+  //   if (!weekday && vacation) return true;
+  return !weekday || vacation;
+}
+
+// console.log(sleepIn(false, false));
+// console.log(sleepIn(true, false));
+// console.log(sleepIn(false, true));
+
+function monkeyTrouble(aSmile, bSmile) {
+  if (aSmile && bSmile) return true;
+  if (!aSmile && !bSmile) return true;
+  return false;
+}
+
+console.log(monkeyTrouble(true, true));
+console.log(monkeyTrouble(false, false));
+console.log(monkeyTrouble(true, false));
